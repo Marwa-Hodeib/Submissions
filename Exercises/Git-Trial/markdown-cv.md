@@ -1,4 +1,4 @@
-![Marwa Hodeib Cv](//home/akram/Downloads/Akram.jpg "title")
+![Marwa Hodeib Cv]
 
 # Marwa Hodeib
 
