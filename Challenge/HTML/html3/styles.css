@@ -1,0 +1,26 @@
+body,
+html {
+  background: #212b2d;
+  color: white;
+}
+
+h1 {
+  text-align: inherit;
+}
+
+.main {
+  text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background: #333d3f;
+  padding: 10px;
+}
+
+nav div {
+  padding: 10px;
+  color: white;
+  border-right: 1px solid white;
+}
