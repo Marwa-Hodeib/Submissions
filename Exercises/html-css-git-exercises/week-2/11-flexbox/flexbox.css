@@ -1,1 +1,12 @@
 /* Add your own CSS code below */
+
+.countries--first {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 3%;
+}
+.countries--second {
+  display: flex;
+  flex-direction: column;
+}
