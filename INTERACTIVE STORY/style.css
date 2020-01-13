@@ -1,0 +1,83 @@
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  padding-top: 30px;
+  padding-left: 180px;
+  text-shadow: 2px 2px black;
+}
+body {
+  margin-top: 20px;
+  background-image: url("img/anxiety-2878767_1280.jpg");
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin-right: 80px;
+  margin-left: 80px;
+  background-color: #2d2c2b;
+}
+.text {
+  background-color: #2d2c2b;
+  font-weight: 600;
+  text-align: justify;
+  border: red 2px solid;
+  border-radius: 25px;
+  color: white;
+  margin-top: 50px;
+  padding: 10px;
+  font-size: large;
+}
+.logo {
+  width: 290px;
+
+  border-radius: 10%;
+}
+.header {
+  display: flex;
+}
+.btn {
+  text-align: center;
+  margin-top: 10px;
+}
+.button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.button1 {
+  background-color: #2d2c2b;
+  color: wheat;
+  border: 2px solid red;
+}
+.button1:hover {
+  background-color: red;
+  color: white;
+}
+#a {
+  display: none;
+}
+
+.part2,
+.fight-part,
+.cry-part,
+.gameover,
+.liar1,
+.liar2,
+.reset,
+.scream-part,
+.escape-part,
+.faint-part {
+  display: none;
+}

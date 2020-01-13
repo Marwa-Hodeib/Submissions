@@ -7,3 +7,7 @@
 }
 
 /* Add your own CSS code below */
+.countries--first {
+  justify-content: space-evenly;
+  flex-direction: row;
+}

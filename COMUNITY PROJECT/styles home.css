@@ -1,0 +1,41 @@
+body {
+  background-color: #ce93d8;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  background-image: url("https://render.fineartamerica.com/images/rendered/default/framed-print/images-medium-5/jumping-people-silhouette-on-the-white-backgroundvarious-poses-jumping-people-character-hand-drawn-style-vectordesign-illustrationshappiness-freedom-motion-and-people-concepthorizontal-banner-undefined-undefined.jpg?imgWI=24.000&imgHI=7.125&sku=CRQ13&mat1=PM918&mat2=&t=2&b=2&l=2&r=2&off=0.5&frameW=0.875");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: left;
+  height: 300px;
+  float: left;
+  width: 50%;
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+h2 {
+  float: left;
+  position: relative;
+}
+
+.main {
+  white-space: pre-line;
+  position: relative;
+  float: left;
+}
+
+.main2 {
+  float: right;
+}
