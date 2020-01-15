@@ -15,16 +15,13 @@ class App extends Component {
   render() {
     return (
       <div className="app">
+        {console.log(FakeWeather.list[0].main.humidity)}
         <Search />
-        <CurrentWeather />
+        <CurrentWeather hum={FakeWeather.list[0].main.humidity} />
         <div className="forecast">
-          <WeatherLater />
-          <WeatherLater />
-          <WeatherLater />
-          <WeatherLater />
-          <WeatherLater />
-          <WeatherLater />
-          <WeatherLater />
+          {FakeWeather.list.map((item, value) => {
+            if (value > 0 && value < 8) return <WeatherLater weather={item} />;
+          })}
         </div>
 
         <main className="appmain"></main>

@@ -11,9 +11,9 @@ class WeatherLater extends Component {
     return (
       <div className="forecast">
         <div className="forecast-details">
-          <p>03:00</p>
+          <p>{this.props.weather.dt_txt.substring(11, 16)}</p>
           <img className="image-2" src={cloudy} alt="weather-logo" />
-          <p>8°C</p>
+          <p>{Math.floor(this.props.weather.main.temp - 273.15)} C°</p>
         </div>
       </div>
     );

@@ -15,7 +15,8 @@ class CurrentWeather extends Component {
           </div>
           <div className="pressure">
             <p>
-              <b> Humidity </b>78%
+              <b> Humidity </b>
+              {this.props.hum}%
             </p>
             <p>
               {" "}
