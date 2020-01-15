@@ -10,3 +10,95 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+body {
+  background-color: #9cc2f7;
+}
+
+.city {
+  background-color: #7b88dc;
+  border: none;
+  color: #fff;
+  margin-left: 15px;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #6455c9;
+  color: black;
+  border: none;
+  padding: 10px 13px;
+  border-radius: 5px;
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+.header {
+  background-color: #0095b6;
+  height: 50px;
+}
+
+figcaption {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.image-1 {
+  position: relative;
+  width: 40%;
+}
+
+.image-2 {
+  position: relative;
+  width: 20%;
+}
+
+.image-3 {
+  position: relative;
+  width: 20%;
+}
+
+.image-4 {
+  position: relative;
+  width: 20%;
+}
+
+.image-5 {
+  position: relative;
+  width: 20%;
+}
+
+.image-6 {
+  position: relative;
+  width: 20%;
+}
+
+.image-7 {
+  position: relative;
+  width: 20%;
+}
+
+.image-8 {
+  position: relative;
+  width: 20%;
+}
+
+.imageContainer {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.appheader {
+  color: white;
+  text-align: ;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #7b88dc;
+}
+
+.cityName {
+  background-color: #6455c9;
+  color: white;
+}

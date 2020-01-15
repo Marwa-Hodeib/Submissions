@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 import "./App.css";
 
+import FakeWeather from "./Data/FakeWeather.json";
+import Search from "./Search.js";
+import CurrentWeather from "./CurrentWeather";
+import WeatherLater from "./WeatherLater";
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -10,8 +15,19 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <header className="app__header">Marwa</header>
-        <main className="app__main"></main>
+        <Search />
+        <CurrentWeather />
+        <div className="forecast">
+          <WeatherLater />
+          <WeatherLater />
+          <WeatherLater />
+          <WeatherLater />
+          <WeatherLater />
+          <WeatherLater />
+          <WeatherLater />
+        </div>
+
+        <main className="appmain"></main>
       </div>
     );
   }

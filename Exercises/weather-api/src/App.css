@@ -16,6 +16,101 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  background-color: #9cc2f7;
+}
+
+.whattemperature {
+  border: none;
+  font-size: 17px;
+  text-align: left;
+}
+
+input {
+  outline: none;
+  border: none;
+  background-color: #7b88dc;
+}
+
+input:focus {
+  border-bottom: 1px solid blue;
+}
+
+button {
+  background-color: #6455c9;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+.header {
+  background-color: #7b88dc;
+  height: 50px;
+}
+
+.appheader {
+  color: white;
+  background-color: #7b88dc;
+}
+
+.image-1 {
+  width: 200px;
+}
+
+.image-2 {
+  width: 100px;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.app {
+  width: 100vw;
+  width: 100vw;
+  transition: background-color 1s ease-in;
+}
+
+.appheader,
+.appmain {
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.forecast {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.pressure {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+p {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+figcaption {
+  color: white;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .forecast {
+    flex-direction: column;
+  }
+}
+
 /*  Search bar */
 
 /* Current weather */
