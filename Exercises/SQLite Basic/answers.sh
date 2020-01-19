@@ -19,3 +19,5 @@ SET Points = '190'
 WHERE name = 'Alex';
 
 
+DELETE FROM students WHERE name = 'Layal';
+
