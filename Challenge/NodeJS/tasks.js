@@ -36,6 +36,9 @@ function onDataReceived(text) {
     quit();
   } else if (text === "hello\n") {
     hello();
+  } else if (text === "help\n") {
+    var list = "quit , exit , hello , help";
+    console.log(list);
   } else {
     unknownCommand(text);
   }
