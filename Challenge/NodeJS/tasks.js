@@ -37,13 +37,15 @@ function onDataReceived(text) {
   } else if (text === "hello\n") {
     hello();
   } else if (text === "help\n") {
-    var list = "quit , exit , hello , help";
-    console.log(list);
+    help();
   } else {
     unknownCommand(text);
   }
 }
-
+function help() {
+  var list = "quit , exit , hello , help";
+  console.log(list);
+}
 /**
  * prints "unknown command"
  * This function is supposed to run when all other commands have failed
