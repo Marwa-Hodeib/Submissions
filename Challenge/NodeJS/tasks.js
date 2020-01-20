@@ -42,6 +42,11 @@ function onDataReceived(text) {
     unknownCommand(text);
   }
 }
+
+/**
+ * lists all possible commands
+ */
+
 function help() {
   var list = "quit , exit , hello , help";
   console.log(list);
