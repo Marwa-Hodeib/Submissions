@@ -33,6 +33,7 @@ function startApp(name) {
  */
 function onDataReceived(text) {
   var arr = text.split(/(\s+)/);
+
   if (text === "quit\n" || text === "exit\n") {
     quit();
   } else if (arr[0] === "hello") {
@@ -53,7 +54,14 @@ function onDataReceived(text) {
  */
 
 function help() {
-  var list = "quit , exit , hello , help";
+  var list =
+    "Select:" +
+    "\n" +
+    "quit/exit:Exit the app" +
+    "\n" +
+    "hello:hello + (name)" +
+    "\n" +
+    "help:Select again :)";
   console.log(list);
 }
 /**
