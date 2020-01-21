@@ -1,3 +1,10 @@
+var tasksList = ["Don't", "Know", "What", "ToWrite"];
+function list() {
+  for (let i = 0; i < tasksList.length; i++) {
+    console.log(tasksList[i]);
+  }
+}
+
 /**
  * Starts the application
  * This is the function that is run when the app starts
@@ -44,6 +51,8 @@ function onDataReceived(text) {
     }
   } else if (text === "help\n") {
     help();
+  } else if (text === "list\n") {
+    list();
   } else {
     unknownCommand(text);
   }
@@ -59,7 +68,7 @@ function help() {
     "\n" +
     "quit/exit:Exit the app" +
     "\n" +
-    "hello:hello + (name)" +
+    "hello:hello + name" +
     "\n" +
     "help:Select again :)";
   console.log(list);
