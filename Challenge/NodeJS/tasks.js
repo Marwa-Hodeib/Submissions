@@ -1,7 +1,7 @@
 var tasksList = ["Don't", "Know", "What", "ToWrite"];
 function list() {
   for (let i = 0; i < tasksList.length; i++) {
-    console.log(tasksList[i]);
+    console.log(i + "- " + tasksList[i]);
   }
 }
 
@@ -59,12 +59,22 @@ function onDataReceived(text) {
     help();
   } else if (text === "list\n") {
     list();
+  } else if (arr[0] === "remove") {
+    if (arr[2] !== "") remove(arr[2]);
+    else remove(tasksList.length - 1);
   } else {
     unknownCommand(text);
   }
 }
 function add(name) {
   tasksList.push(name);
+  list();
+}
+
+function remove(taskId) {
+  if (taskId < tasksList.length) {
+    tasksList.splice(taskId, 1);
+  } else console.log("you exeed the length of list");
   list();
 }
 
