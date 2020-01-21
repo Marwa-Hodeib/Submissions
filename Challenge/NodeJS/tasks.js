@@ -79,7 +79,10 @@ function remove(taskId) {
 }
 
 /**
- * lists all possible commands
+ * "help":lists all possible commands.
+ * "list":lists the list of tasks.
+ * "add": adds new tasks.
+ * "remove": removes one task.
  */
 
 function help() {
