@@ -49,6 +49,12 @@ function onDataReceived(text) {
     } else {
       hello(arr[2]);
     }
+  } else if (arr[0] === "add") {
+    if (arr[2] !== "") {
+      add(arr[2]);
+    } else {
+      console.log("add something to be added to the list");
+    }
   } else if (text === "help\n") {
     help();
   } else if (text === "list\n") {
@@ -56,6 +62,10 @@ function onDataReceived(text) {
   } else {
     unknownCommand(text);
   }
+}
+function add(name) {
+  tasksList.push(name);
+  list();
 }
 
 /**
@@ -73,6 +83,7 @@ function help() {
     "help:Select again :)";
   console.log(list);
 }
+
 /**
  * prints "unknown command"
  * This function is supposed to run when all other commands have failed
