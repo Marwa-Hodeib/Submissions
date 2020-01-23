@@ -22,3 +22,21 @@ app.get("/time", (req, res) => {
       new Date().getSeconds()
   });
 });
+
+app.get("/hello/:ID", (req, res) => {
+  res.json({
+    status: 200,
+    message: "hello" + req.params.ID
+  });
+});
+
+app.get("/search", (req, res) => {
+  if (req.query.b) res.json({ status: 200, data: req.query.b });
+  else {
+    res.json({
+      status: 500,
+      error: true,
+      message: "you have to provide a search"
+    });
+  }
+});
