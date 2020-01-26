@@ -1,3 +1,112 @@
 body {
-  background-color: #c8e6c9;
+  background-color: black;
+  font-family: "Raleway", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.backgroundImage {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.logoContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 50%;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+.topnav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  top: 0;
+  list-style: none;
+  position: fixed;
+  width: 100%;
+  background: rgba(171, 233, 164, 0.3);
+  animation-name: example;
+  margin-top: -5px;
+  z-index: 1;
+}
+
+.bgimage {
+  width: 100%;
+}
+
+.Contact {
+  color: #83f1d5;
+  margin: 30px;
+}
+
+.main p {
+  white-space: pre-line;
+  position: relative;
+  float: left;
+  color: #83f1d5;
+}
+
+.main2 {
+  float: none;
+  color: #83f1d5;
+}
+
+/*.navItem {
+  text-decoration: none;
+}*/
+
+.listItem :hover {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  color: #83f1d5;
+}
+
+.listItem a {
+  text-decoration: none;
+  color: black;
+}
+
+.headerTitle {
+  font-weight: 600;
+  color: white;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 54%;
+  text-align: center;
+  width: 60%;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .main {
+    flex-direction: column;
+    background-color: tomato;
+  }
+  .headerContainer {
+    flex-direction: column;
+  }
+  .topnav {
+    flex-wrap: wrap;
+  }
 }

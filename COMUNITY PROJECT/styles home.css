@@ -1,9 +1,20 @@
 body {
-  background-color: #ce93d8;
+  background-color: black;
   font-family: "Raleway", Arial, sans-serif;
-  background: linear-gradient(to bottom, #33ccff 0%, #99ff99 57%);
+  margin: 0;
+  padding: 0;
+  position: relative;
 }
 
+.backgroundImage {
+  width: 100%;
+}
+#maindiv {
+  position: ;
+
+  display: inline-block;
+  width: 100%;
+}
 h1 {
   text-align: center;
   text-decoration: underline;
@@ -19,54 +30,73 @@ h1 {
 .logo {
   width: 50%;
 }
-
+nav {
+  display: flex;
+  justify-content: center;
+}
 .topnav {
   display: flex;
   justify-content: space-evenly;
-  padding: 10px;
-  width: 100%;
+  padding: 20px 0;
   top: 0;
   list-style: none;
+  position: fixed;
+  width: 100%;
+  background: rgba(171, 233, 164, 0.3);
+  animation-name: example;
+  margin-top: -5px;
 }
 
-.contentContainer {
-  border: 3px dotted red;
-}
-
-.main {
+.main p {
   white-space: pre-line;
   position: relative;
   float: left;
-  border: 3px solid green;
+  color: #83f1d5;
 }
 
 .main2 {
-  float: right;
-  border: 3px solid yellow;
+  float: none;
+  color: #83f1d5;
 }
 
-.navItem {
+/*.navItem {
   text-decoration: none;
-}
+}*/
 
-.listItem {
-  padding: 5px;
-  background-color: wheat;
+.listItem :hover {
   flex-grow: 1;
   display: flex;
   justify-content: center;
-  padding: 20px 0;
-  opacity: 5;
-  border-right: 1px solid black;
+  color: #83f1d5;
+}
+
+.listItem a {
+  text-decoration: none;
+  color: black;
 }
 
 .headerTitle {
   font-weight: 600;
+  color: black;
+  position: relative;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 54%;
+  text-align: center;
+  width: 60%;
+  top: 30rem;
 }
 
 .headerContainer {
   display: flex;
   justify-content: space-around;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
