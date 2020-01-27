@@ -8,10 +8,9 @@ body {
 
 .backgroundImage {
   width: 100%;
+  margin-top: -8rem;
 }
 #maindiv {
-  position: ;
-
   display: inline-block;
   width: 100%;
 }
@@ -21,17 +20,11 @@ h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.logoContainer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
 .logo {
-  width: 50%;
+  width: 10%;
+  position: fixed;
 }
 nav {
-  display: flex;
   justify-content: center;
 }
 .topnav {
@@ -67,7 +60,7 @@ nav {
   flex-grow: 1;
   display: flex;
   justify-content: center;
-  color: #83f1d5;
+  color: #404fbd;
 }
 
 .listItem a {
@@ -86,7 +79,7 @@ nav {
   top: 54%;
   text-align: center;
   width: 60%;
-  top: 30rem;
+  top: 20rem;
 }
 
 .headerContainer {

@@ -6,12 +6,22 @@ body {
   position: relative;
 }
 
-.backgroundImage {
-  width: 100%;
+.logo {
+  width: 10%;
+  position: fixed;
+  margin-top: -80px;
+}
+
+.backgroundImage3 {
+  padding: 3rem;
+  float: left;
+}
+
+.backgroundImage2 {
+  float: right;
 }
 
 nav {
-  display: flex;
   justify-content: center;
 }
 .topnav {
@@ -29,7 +39,7 @@ nav {
 
 .events {
   color: #83f1d5;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .listItem :hover {

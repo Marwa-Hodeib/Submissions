@@ -12,6 +12,11 @@ body {
   margin: 20px;
   padding: 91px 0px;
 }
+.logo {
+  width: 10%;
+  position: fixed;
+  margin-top: -80px;
+}
 
 .image2 {
   width: 50%;
@@ -27,7 +32,6 @@ body {
   text-align: inherit;
 }
 nav {
-  display: flex;
   justify-content: center;
 }
 .topnav {
@@ -41,6 +45,7 @@ nav {
   background: rgba(171, 233, 164, 0.3);
   animation-name: example;
   margin-top: -5px;
+  z-index: 1;
 }
 
 .paragraph_2 {
@@ -54,16 +59,16 @@ nav {
   float: none;
   color: #83f1d5;
 }
-
 .listItem :hover {
   flex-grow: 1;
   display: flex;
   justify-content: center;
   color: #83f1d5;
 }
+
 .listItem a {
   text-decoration: none;
-  color: #83f1d5;
+  color: black;
 }
 
 /*.headerTitleHealth {
