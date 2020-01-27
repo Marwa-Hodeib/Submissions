@@ -70,7 +70,7 @@ nav {
 
 .listItem a {
   text-decoration: none;
-  color: black;
+  color: whitesmoke;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
