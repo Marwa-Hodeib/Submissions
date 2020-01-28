@@ -5,7 +5,6 @@ var text = document.querySelector("#texte");
 hide.addEventListener("click", function() {
   text.style.display = "none";
 });
-
 show.addEventListener("click", function() {
   text.style.display = "block";
 });
